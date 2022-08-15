@@ -24,7 +24,7 @@ public class ExceptionExamples {
         }
         catch(Exception g)
         {
-            System.out.println("Enter into catch again");
+             System.out.println("Enter into catch again");
             System.out.println(g);
         }
 
@@ -44,6 +44,10 @@ public class ExceptionExamples {
         catch (IndexOutOfBoundsException j)
         {
             System.out.println("AGAIN!!!!");
+            System.out.println(j);
+        }
+        finally {
+            System.out.println("This will execute regardless of the exception is present or not");
         }
 
         System.out.println("Program is completed");
