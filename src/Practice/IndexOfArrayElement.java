@@ -1,5 +1,7 @@
 package Practice;
 
+//Write a Java program to find the index of an array element.
+
 class ArrayData
 {
     int a[] = {11,22,33,44,55,66};
